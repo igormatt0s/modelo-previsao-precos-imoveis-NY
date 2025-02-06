@@ -6,7 +6,8 @@ Este projeto tem como objetivo a predição de preços de aluguel utilizando apr
 O repositório contém:
 - `Modelo.ipynb`: Notebook com o código completo para treinamento, avaliação e predição do modelo.
 - `requirements.txt`: Arquivo com todos os pacotes utilizados e suas versões.
-- `modelo_xgb.pkl`: Arquivo contendo o modelo treinado.
+- `modelo_xgb.pkl`: Arquivo contendo o modelo XGBoost treinado.
+- `modelo_gbr.pkl`: Arquivo contendo o modelo Gradient Boosting treinado.
 - `README.md`: Documentação sobre instalação e execução do projeto.
 
 ---
@@ -179,7 +180,8 @@ print(f"Preço previsto para o apartamento: ${preco_previsto[0]:.2f}")
 ```
 /
 ├── Modelo.ipynb            # Notebook principal do projeto
-├── modelo_xgb.pkl          # Modelo treinado salvo
+├── modelo_xgb.pkl          # Modelo XGBoost treinado salvo
+├── modelo_gbr.pkl          # Modelo Gradient Boosting treinado salvo
 ├── kmeans.pkl              # Modelo KMeans treinado
 ├── preprocessor.pkl        # Pipeline de pré-processamento salvo
 ├── README.md               # Documentação do projeto
